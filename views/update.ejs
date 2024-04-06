@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Rowdies:wght@300;400;700&family=Tac+One&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="updating">
+     <form action="/update" method="post">
+    <input type="hidden" name="index" value="<%= locals.index %>"  />
+    <input type="text" name="blogTitle" value="<%= locals.blogTitle %>" style="display: block; margin: 5px"  />
+    <textarea name="blog" style="display: block; margin: 5px" ><%= locals.blog %> </textarea>
+    <button type="submit">Submit Update</button>
+  </form>
+  </div>
+ 
+</body>
+</html>

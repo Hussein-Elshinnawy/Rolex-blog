@@ -1,0 +1,125 @@
+body{
+    background-color: #E8E4DD;
+}
+h1, .paragraph {
+    margin: 10px; /* This removes the default margins */
+}
+
+h1{
+    color:#41624F;
+    font-size: 60px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h3{
+    color:#41624F;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+P{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #413419;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    border-radius: 50%;
+    border-color:#41624F;
+    border-style: dashed ;
+    margin: 5px;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+button{
+    background-color: #A2803E;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 10px;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    border: 2px solid #A2803E;
+}
+.posts{
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px 32px;
+    background-color: whitesmoke;
+}
+.post h3, .post p {
+    padding: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+
+.posting input[type="text"],
+.posting textarea,
+.updating input[type="text"],
+.updating textarea {
+    width: 50%; 
+    margin: 5px 0; 
+    padding: 10px;
+    border: 2px solid #A2803E;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fff;
+    color: #413419;
+    box-sizing: border-box; 
+}
+
+.posting input[type="submit"], .updating input[type="submit"] {
+
+    padding: 10px;
+    margin: 5px 0; 
+    background-color: #A2803E;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+    background-color: #916C35;
+}
+
+::placeholder {
+    color: #413419;
+    opacity: 0.5;
+}
